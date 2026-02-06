@@ -1,16 +1,34 @@
-# cvoo_mobile
+# Cloud Deployed Full-Stack Application
 
-A new Flutter project.
+## 📌 Project Overview
+This project is a Flutter & JavaScript full-stack app with MongoDB Atlas as the database. 
+Frontend is hosted on Netlify, backend is hosted on Render.
+## 🧱 Architecture
 
-## Getting Started
+```
+Flutter App
+    |
+Netlify (Frontend Hosting)
+    |
+Backend API (Node.js - Render)
+    |
+MongoDB Atlas (Cloud Database)
+```
+## 🛠 Tech Stack
 
-This project is a starting point for a Flutter application.
+### Frontend
+- Flutter
+- JavaScript
+- Hosted on Netlify
 
-A few resources to get you started if this is your first Flutter project:
+### Backend
+- Node.js
+- Express.js
+- Hosted on Render
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Database
+- MongoDB Atlas (Free Tier)
+## 🚀 Live Demo
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Frontend (Netlify): https://cv-cvoo.netlify.app/
+- Backend API (Render): https://cvoo-backend.onrender.com
